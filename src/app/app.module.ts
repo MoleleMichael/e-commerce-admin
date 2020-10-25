@@ -8,6 +8,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatButtonModule } from "@angular/material/button";
 import { MatIconModule } from "@angular/material/icon";
 import {MatDividerModule} from '@angular/material/divider';
+import {MatTableModule} from '@angular/material/table';
 
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
@@ -30,7 +31,8 @@ import { AddproductsComponent } from './addproducts/addproducts.component';
     ReactiveFormsModule,
     MatButtonModule,
     MatIconModule,
-    MatDividerModule
+    MatDividerModule,
+    MatTableModule
   ],
   declarations: [
     AppComponent,
