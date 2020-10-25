@@ -17,6 +17,7 @@ import { AppRoutingModule } from "./app-routing/app-routing.module";
 import { RouterModule, Routes } from "@angular/router";
 import { AddingComponent } from './adding/adding.component';
 import { HomeComponent } from './home/home.component';
+import { AddproductsComponent } from './addproducts/addproducts.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { HomeComponent } from './home/home.component';
     RegisterComponent,
     LoginComponent,
     AddingComponent,
-    HomeComponent
+    HomeComponent,
+    AddproductsComponent
   ],
   bootstrap: [AppComponent]
 })
