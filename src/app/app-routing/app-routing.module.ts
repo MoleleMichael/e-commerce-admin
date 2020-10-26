@@ -10,8 +10,8 @@ import { AddproductsComponent } from '../addproducts/addproducts.component';
 const approuting: Routes = [
   {path:'LoginComponent', component: LoginComponent},
   {path:'register', component: RegisterComponent},
-  {path:'', component: HomeComponent},
-  {path: 'addproducts', component: AddproductsComponent}
+  {path:'home', component: HomeComponent},
+  {path: '', component: AddproductsComponent}
   ];
 
 @NgModule({
