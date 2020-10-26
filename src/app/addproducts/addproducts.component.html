@@ -8,4 +8,11 @@
         <mat-icon name="add"></mat-icon>
     </button>
 
+<p-column field="" header="" [style]="{'text-align':'center'}">
+      <ng-template let-row="rowData" pTemplate="body">
+         <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
+          <mat-icon>delete</mat-icon>
+        </button>
+  </ng-template>
+  </p-column>
 </div>
