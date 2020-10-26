@@ -1,6 +1,7 @@
 #Header{
-   background-image: linear-gradient( rgba(6, 7, 7, 0.5), rgba(0, 0, 0, 0.5) ), url(https://cdn.hipwallpaper.com/i/98/4/QTnvxU.png);
+   /* background-image: linear-gradient( rgba(6, 7, 7, 0.5), rgba(0, 0, 0, 0.5) ), url(https://cdn.hipwallpaper.com/i/98/4/QTnvxU.png); */
    text-align:center;
+   background-color: rgba(183, 197, 201, 0.295);
    font-family: ;
   color: rgba(142, 170, 170, 0.966);
   font-size: 25px;

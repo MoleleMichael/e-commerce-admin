@@ -19,6 +19,7 @@ import { RouterModule, Routes } from "@angular/router";
 import { AddingComponent } from './adding/adding.component';
 import { HomeComponent } from './home/home.component';
 import { AddproductsComponent } from './addproducts/addproducts.component';
+import { DetailsComponent } from './details/details.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { AddproductsComponent } from './addproducts/addproducts.component';
     LoginComponent,
     AddingComponent,
     HomeComponent,
-    AddproductsComponent
+    AddproductsComponent,
+    DetailsComponent
   ],
   bootstrap: [AppComponent]
 })
